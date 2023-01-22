@@ -2,6 +2,6 @@ version: "3.8"
 
 services:
   hetzner-runner:
-    image: ghcr.io/lukasleitsch/hetzner-gitlab-runner:latest
+    image: ghcr.io/georepublic/hetzner-gitlab-runner:latest
     volumes:
       - "./hetzner_config:/etc/gitlab-runner"
