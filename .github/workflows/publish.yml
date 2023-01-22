@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   
 env:
-  IMAGE: lukasleitsch/hetzner-gitlab-runner
+  IMAGE: georepublic/hetzner-gitlab-runner
 
 jobs:
   docker:
